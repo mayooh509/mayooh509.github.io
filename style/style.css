@@ -1,0 +1,229 @@
+/* reset */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: 10px auto;
+  background-image: url(../images/fond_jaune.png);
+  position: relative;
+}
+
+header{
+  background-image: url(../images/separateur.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-position-x: 10px;
+  height: 130px;
+}
+.en_tete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  margin: 15px 20px 0px;
+}
+.logo h2 {
+  margin-left: 20px;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.logo h1 {
+  margin-bottom: 0px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  margin-top: 30%;
+  margin-right: 50px;
+}
+
+nav a {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.imag_saint_francisco {
+  display: flex;
+  background-image: url(../images/sanfrancisco.jpg);
+  height: 210px;
+  width: 85%;
+  margin: 5px auto;
+  align-items: flex-end;
+
+}
+
+.voir_article{
+  display: flex;
+  background-color:rgba(0, 0, 0, 0.637) ;
+  height: 45px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.voir_article .btn_article{
+  margin-right: 5px;
+  background-color: darkred;
+  color: blanchedalmond;
+  border-radius: 5px;
+  height: 30px;
+  width: 95px;
+  border: none;
+  
+}
+ 
+.voir_article p{
+  margin-left: 5px;
+}
+
+
+
+nav a:hover {
+  height: 10px;
+  border-bottom: 3px solid rgb(173, 27, 27);
+  padding-bottom: 20px;
+  color: brown;
+}
+
+section{
+background-image:url(../images/separateur.png);
+background-position:bottom;
+background-repeat: repeat-x;
+}
+.second_section{
+  width: 85%;
+  height: auto;
+  margin: 10px auto;
+display: flex;
+justify-content: center; 
+}
+
+.titre_section {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10px;
+  
+}
+
+.titre_section h1{
+  font-size: 2.5em;
+  margin-left: 10px;
+  font-weight: normal;
+  
+}
+
+.para_zozor{
+  text-align: justify;
+  width: 750px;
+  margin: 10px 20px 0px 0px;
+}
+
+.profil_zozor{
+  background-color: rgb(116, 115, 114);
+  display: grid;
+  width: 63%;
+ height: 450px;
+}
+
+.profil_zozor img, h1{
+margin: auto;
+}
+
+.profil_zozor h1{
+  font-size: 19px;
+  color: white;
+}
+  .bulbe{
+    position: absolute;
+    top: 47.5%;
+    left: 70%;
+  }
+
+.para_profil{
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 15px;
+  letter-spacing: 0.07rem;
+  color: white;
+
+}
+
+.icones{
+  margin: auto;
+
+}
+
+.footer{
+  display: flex;
+  margin:center;
+  justify-content:space-evenly;
+  padding: 20px;
+  margin-left: 55px;
+}
+
+.photo_list{
+  display: flex;
+  margin: auto;
+  
+}
+
+
+.horaire h1{
+  font-size: normal;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.liste2{
+
+}
+
+.horaire{
+  margin-left: 70px;
+}
+
+.list li{
+list-style: none;
+}
+
+.ico_top{
+  position: absolute;
+    bottom: 11.8%;
+    left: 53%;
+}
+
+ 
+.div3{
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
